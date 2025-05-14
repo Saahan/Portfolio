@@ -78,7 +78,7 @@
         else {
             return (
               <div className="card" onClick={this.flipover}>
-            <img src="https://bicyclecards.com/wp-content/uploads/2015/06/Oak-Leaf-Back.jpg" alt="no design" width="150px" height="250px" ></img>
+            <img src="https://i.pinimg.com/736x/e7/ce/41/e7ce412feab2049d9c19166c78cf29b2.jpg" alt="no design" width="150px" height="250px" ></img>
             </div>
           
             )
@@ -120,10 +120,10 @@
          this.setState((state,props) => {return {secondValueIndex : parseInt(Math.random()*12)}});
          this.setState((state,props) => {return {thirdValueIndex : parseInt(Math.random()*12)}});
          this.setState((state,props) => {return {fourthValueIndex : parseInt(Math.random()*12)}});
-         this.setState((state,props) => {return {firstIconIndex : parseInt(Math.random()*3)}});
-         this.setState((state,props) => {return {secondIconIndex : parseInt(Math.random()*3)}});
-         this.setState((state,props) => {return {thirdIconIndex : parseInt(Math.random()*3)}});
-         this.setState((state,props) => {return {fourthIconIndex : parseInt(Math.random()*3)}});
+         this.setState((state,props) => {return {firstIconIndex : parseInt(Math.random()*4)}});
+         this.setState((state,props) => {return {secondIconIndex : parseInt(Math.random()*4)}});
+         this.setState((state,props) => {return {thirdIconIndex : parseInt(Math.random()*4)}});
+         this.setState((state,props) => {return {fourthIconIndex : parseInt(Math.random()*4)}});
          this.setState((state,props) => {return {flipped: true}}); }
          
          Reset(index) {this.setState((state,props) => {return {index: 0}});}
